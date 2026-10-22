@@ -1,0 +1,725 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+1,"Upload a PDF file over Wi-Fi","Baseline Uploads",1,"Nicholas Passos",1314000,Passed,"2026-10-19 22:41:51","1. Open the local PDF and check its page count and content.
+2. Open Google Drive and navigate to QA-Connectivity-Lab.
+3. Start a file upload and select TC01\_R01\_document.pdf from local storage.
+4. Wait for the upload to finish and observe the app status.
+5. Refresh the destination folder in Google Drive on the desktop browser.
+6. Open the uploaded PDF on the desktop and compare it with the local original.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. The PDF opens correctly. Its page count and content are noted for comparison.
+2. The destination folder opens successfully.
+3. The upload request is accepted without an error.
+4. The file appears in the destination folder with no pending upload or error indicator.
+5. Exactly one file named TC01\_R01\_document.pdf is listed.
+6. The PDF opens, and its page count, text and visible content match the original.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. ","The PDF TC01\_R01\_document.pdf (27.06 KB, 1 page) was uploaded successfully from the Android device over Wi-Fi, with mobile data disabled and Wi-Fi-only transfers enabled.
+
+The destination folder was empty before the upload. Google Drive displayed “1 upload concluído” after completion.
+
+Desktop browser verification confirmed exactly one copy of the file. The uploaded PDF opened successfully, and its page count and visible content matched the local original, including identifier TESTE-PDF-001, accented characters, and numbers.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,Medium,Normal,Manual,Functional,,false,
+2,"Upload an image file over Wi-Fi","Baseline Uploads",1,"Nicholas Passos",1377000,Passed,"2026-10-19 23:06:14","1. Open the local image and inspect its orientation and visible content.
+2. Open Google Drive and navigate to QA-Connectivity-Lab.
+3. Start a file upload and select TC02\_R01\_image.jpg from local storage.
+4. Wait for the upload to finish and observe the app status.
+5. Refresh the destination folder in Google Drive on the desktop browser.
+6. Open the uploaded image on the desktop and compare it with the local original.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. The image opens correctly. Its orientation and content are noted for comparison.
+2. The destination folder opens successfully.
+3. The upload request is accepted without an error.
+4. The image appears in the destination folder with no pending upload or error indicator.
+5. Exactly one file named TC02\_R01\_image.jpg is listed.
+6. The image opens with matching orientation and visible content, without unexpected cropping or visible corruption.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. ","The image imagem\_teste.jpg was uploaded successfully over Wi-Fi with mobile data disabled and Wi-Fi-only transfers enabled.
+
+The image was listed in the Android app and opened successfully in the desktop browser. Its orientation and visible content matched the local original, with no unexpected cropping or visible corruption. One image file was present alongside the PDF from TC01.
+
+Test data deviation: imagem\_teste.jpg was used instead of TC02\_R01\_image.jpg. The actual filename was preserved in the evidence.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,Medium,Normal,Manual,Functional,,false,
+3,"Upload a PDF file over mobile data","Baseline Uploads",1,"Nicholas Passos",422000,Passed,"2026-10-19 23:14:08","1. Open the local PDF and check its page count and content.
+2. Confirm that Wi-Fi is disabled, mobile data is enabled, and Wi-Fi-only transfers are disabled in Google Drive.
+3. Open Google Drive and navigate to QA-Connectivity-Lab.
+4. Start a file upload and select TC03\_R01\_document.pdf from local storage.
+5. Wait for the upload to finish and observe the app status.
+6. Refresh the destination folder in Google Drive on the desktop browser.
+7. Open the uploaded PDF on the desktop and compare it with the local original.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+","1. The PDF opens correctly. Its page count and content are noted for comparison.
+2. The device is configured to upload through mobile data.
+3. The destination folder opens successfully.
+4. The upload starts without requiring a Wi-Fi connection.
+5. The file appears in the destination folder with no pending upload or error indicator.
+6. Exactly one file named TC03\_R01\_document.pdf is listed.
+7. The PDF opens, and its page count, text and visible content match the original.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ","The PDF TC03\_R01\_document.pdf (27.06 KB, 1 page) was uploaded successfully over Claro BR mobile data, with a 5G indicator displayed. Wi-Fi was disabled and Google Drive's Wi-Fi-only transfer setting was disabled, as confirmed by the tester.
+
+The file was absent from the destination folder before upload. The Android app displayed “1 upload concluído” after completion.
+
+Desktop verification confirmed exactly one copy of TC03\_R01\_document.pdf. The uploaded PDF opened successfully, retained one page, and its visible content matched the local original, including identifier TESTE-PDF-001, accented characters, and numbers.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,Medium,Normal,Manual,Functional,,false,
+4,"Attempt to upload a PDF while offline","Offline and Network Settings",2,"Nicholas Passos",4363000,Passed,"2026-10-20 00:28:20","1. While connected, open QA-Connectivity-Lab in the Android app.
+2. Disable both Wi-Fi and mobile data on the phone. Ensure no alternative internet connection is active.
+3. Attempt to upload TC04\_R01\_document.pdf from local storage.
+4. Observe the app for 30 seconds and record the exact message and upload state.
+5. Keeping the phone offline, refresh the destination folder in the desktop browser.
+6. Open the original PDF from local storage on the phone.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+","1. The destination folder opens successfully.
+2. The phone has no active internet connection.
+3. The app does not report a successful upload. It indicates that the operation is offline, waiting, pending, or unsuccessful.
+4. The app does not falsely indicate completion or crash. The operation's incomplete state remains identifiable.
+5. TC04\_R01\_document.pdf is not present in the cloud folder.
+6. The original PDF remains available and readable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. ","An upload of TC04\_R01\_document.pdf was attempted with Wi-Fi and mobile data disabled.
+
+Google Drive displayed “Uploads pausados. Sem conexão.” during an observation period of at least 30 seconds and did not report successful completion.
+
+The tester confirmed that the file was absent from the refreshed desktop Drive folder while the phone remained offline. The local original remained readable.
+
+After connectivity was restored, the upload resumed. This occurred after the offline checks and was recorded as a cleanup observation.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Major,Manual,Functional,,false,
+5,"Recover a PDF upload after restoring Wi-Fi","Offline and Network Settings",2,"Nicholas Passos",2485000,Passed,"2026-10-20 01:10:48","1. Open the local PDF and note its page count and content. While connected, open QA-Connectivity-Lab in Google Drive.
+2. Disable Wi-Fi and mobile data on the phone. Ensure no alternative internet connection is active.
+3. Attempt to upload TC05\_R01\_document.pdf. Observe for 30 seconds and record the status.
+4. Enable Wi-Fi, confirm internet access, and keep mobile data disabled. Return to Google Drive.
+5. Observe whether the upload resumes automatically. If it does not, use an available retry or upload action. Record the action taken and avoid starting another upload while one is active.
+6. Wait for the upload to finish and record the final status and approximate recovery time.
+7. Refresh QA-Connectivity-Lab in the desktop browser.
+8. Open the uploaded PDF on the desktop and compare it with the local original.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. The PDF is readable and the destination folder opens successfully.
+2. The phone has no active internet connection.
+3. The upload is not reported as completed. The app indicates an offline, pending, waiting, or unsuccessful state.
+4. Wi-Fi connectivity is restored and the app remains usable.
+5. The upload resumes automatically or can be restarted through a clear user action.
+6. The file appears with no pending upload or error indicator.
+7. Exactly one file named TC05\_R01\_document.pdf is listed.
+8. The PDF opens, and its page count, text and visible content match the original.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ","The upload of TC05\_R01\_document.pdf was attempted while Wi-Fi and mobile data were disabled and remained paused during the 30-second offline observation period.
+
+After Wi-Fi was restored, with mobile data remaining disabled, the upload resumed automatically without manual intervention and completed in approximately 1 second, based on the tester's visual estimate rather than a stopwatch measurement.
+
+Desktop verification confirmed exactly one copy of TC05\_R01\_document.pdf. The uploaded PDF opened successfully, retained one page, and its visible content matched the original, including identifier TESTE-PDF-001, accented characters, and numbers.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+6,"Respect Wi-Fi-only uploads when using mobile data","Offline and Network Settings",2,"Nicholas Passos",1783000,Passed,"2026-10-20 01:42:00","1. Enable Google Drive's ""Transfer files only over Wi-Fi"" setting and capture evidence of the setting.
+2. Disable Wi-Fi and enable mobile data. Ensure no alternative connection is active.
+3. Open Google Drive and navigate to QA-Connectivity-Lab.
+4. Attempt to upload TC06\_R01\_document.pdf. If prompted to allow mobile data for this upload, decline or dismiss the prompt.
+5. Keep Wi-Fi disabled and observe for 30 seconds. Record the exact message and upload state.
+6. Refresh the destination folder in the desktop browser.
+7. Open the original PDF from local storage on the phone.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+","1. The Wi-Fi-only transfer setting is enabled.
+2. The phone has internet access through mobile data only.
+3. The destination folder is accessible.
+4. The upload does not proceed over mobile data without explicit authorization. The app indicates a Wi-Fi requirement, a waiting state, or requests permission to override the restriction.
+5. The upload is not reported as completed while the Wi-Fi-only restriction remains active.
+6. TC06\_R01\_document.pdf is not present in the cloud folder.
+7. The original PDF remains available and readable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ","The upload of TC06\_R01\_document.pdf was attempted with Wi-Fi disabled, mobile data available, and Wi-Fi-only transfers enabled. No override was authorized.
+
+Google Drive displayed “Aguardando Wi-Fi” and explained that the current settings prevented uploads without a Wi-Fi connection. This state remained for at least 30 seconds.
+
+The tester confirmed that the file remained absent from the refreshed desktop folder during the observation period. The local PDF remained readable.
+
+Observation: another captured screen displayed “Fazendo upload de 1 item”; however, the upload details showed the Wi-Fi restriction, and no completed file was observed in the cloud folder.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387. Mobile network indicator: 5G.",,High,Normal,Manual,Functional,,false,
+7,"Complete a Wi-Fi-only upload after connecting to Wi-Fi","Offline and Network Settings",2,"Nicholas Passos",1884000,Passed,"2026-10-20 02:15:03","1. Open the local PDF and note its page count and content.
+2. Enable Google Drive's ""Transfer files only over Wi-Fi"" setting. Disable Wi-Fi and enable mobile data.
+3. Open QA-Connectivity-Lab and attempt to upload TC07\_R01\_document.pdf. Decline or dismiss any request to allow uploading over mobile data.
+4. Observe for 30 seconds, record the app status, and refresh the destination folder on the desktop.
+5. Enable Wi-Fi and confirm internet access. Disable mobile data. Keep the Wi-Fi-only transfer setting enabled.
+6. Return to Google Drive and observe the upload. If needed, use an available retry or upload action without starting a duplicate active upload. Record whether recovery was automatic or manual.
+7. Wait for completion and record the final status.
+8. Refresh the destination folder on the desktop and open the uploaded PDF.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. The PDF opens correctly and its content is available for comparison.
+2. The restriction is enabled and the phone is connected through mobile data only.
+3. The upload does not proceed without Wi-Fi. The app indicates a waiting state, a Wi-Fi requirement, or requests authorization.
+4. The upload is not reported as completed and the file is absent from the cloud folder.
+5. The phone has working Wi-Fi connectivity and the transfer restriction remains enabled.
+6. The upload can proceed over Wi-Fi without disabling the restriction.
+7. The file appears with no pending upload or error indicator.
+8. Exactly one file named TC07\_R01\_document.pdf is listed. It opens, and its page count and visible content match the original.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ","TC07\_R01\_document.pdf remained pending for at least 30 seconds with Wi-Fi unavailable, mobile data available, and Wi-Fi-only transfers enabled. Google Drive displayed “Uploads pausados — Aguardando Wi-Fi”.
+
+After connecting to Wi-Fi, the upload resumed automatically and completed without manual retry. The Wi-Fi-only setting remained enabled. Recovery time was not measured.
+
+Exactly one copy was visible in the desktop Drive folder. The tester confirmed that the PDF opened on the computer with the same single page and content as the original. The uploaded PDF was also readable on the phone.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+8,"Recover an in-progress upload after Wi-Fi interruption","Network Interruption and Recovery",3,"Nicholas Passos",61507000,Passed,"2026-10-20 19:21:49","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC08\_R01\_video.mp4 over Wi-Fi.
+3. While the upload is visibly in progress, disable Wi-Fi. Keep mobile data disabled.
+4. Observe for 30 seconds. Record the upload status and any message displayed.
+5. Keeping the phone offline, refresh the destination folder in the desktop browser.
+6. Enable Wi-Fi, confirm internet access, and return to Google Drive. Keep mobile data disabled.
+7. Observe whether the upload resumes automatically. If necessary, use an available retry or upload action without creating another active upload. Record the recovery action and approximate time.
+8. Wait for completion, then refresh the destination folder on the desktop.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The app shows that the upload is in progress.
+3. Connectivity is interrupted before upload completion.
+4. The app does not falsely report successful completion. The incomplete operation remains identifiable, and the app does not crash.
+5. No complete, downloadable copy of the video is available. If one is available, investigate whether the upload finished before the interruption took effect.
+6. Wi-Fi connectivity is restored and the app remains usable.
+7. The upload resumes or can be restarted through a clear user action.
+8. Exactly one file named TC08\_R01\_video.mp4 is listed, with no pending upload or error indicator in the Android app.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ","The upload of TC08\_R01\_video.mp4 was started over Wi-Fi. The tester confirmed that upload progress was visible before Wi-Fi was disabled. Mobile data remained disabled throughout the test.
+
+The device remained offline for at least 30 seconds. Google Drive displayed “Uploads pausados — Sem conexão”.
+
+After Wi-Fi was restored, the upload resumed automatically and completed without manual retry. Recovery time was not measured.
+
+The tester confirmed that exactly one copy existed in the desktop Drive folder. The downloaded video matched the original file size in bytes and duration, and played correctly at the beginning, middle, and end.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+9,"Recover an in-progress upload after mobile data interruption","Network Interruption and Recovery",3,"Nicholas Passos",1183000,Passed,"2026-10-20 19:42:42","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC09\_R01\_video.mp4 over mobile data.
+3. While the upload is visibly in progress, disable mobile data. Keep Wi-Fi disabled.
+4. Observe for 30 seconds. Record the upload status and any message displayed.
+5. Keeping the phone offline, refresh the destination folder in the desktop browser.
+6. Enable mobile data, confirm internet access, and return to Google Drive. Keep Wi-Fi disabled.
+7. Observe whether the upload resumes automatically. If necessary, use an available retry or upload action without creating another active upload. Record the recovery action and approximate time.
+8. Wait for completion, then refresh the destination folder on the desktop.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The app shows that the upload is in progress without requiring Wi-Fi.
+3. Connectivity is interrupted before upload completion.
+4. The app does not falsely report successful completion. The incomplete operation remains identifiable, and the app does not crash.
+5. No complete, downloadable copy of the video is available. If one is available, investigate whether the upload finished before the interruption took effect.
+6. Mobile connectivity is restored and the app remains usable.
+7. The upload resumes or can be restarted through a clear user action.
+8. Exactly one file named TC09\_R01\_video.mp4 is listed, with no pending upload or error indicator in the Android app.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ","TC09\_R01\_video.mp4 was uploaded over mobile data with Wi-Fi-only transfers disabled. The tester confirmed that Wi-Fi was disabled before the upload and remained disabled throughout execution.
+
+Mobile data was disabled while upload progress was visible. The device remained offline for at least 30 seconds, and Google Drive displayed “Uploads pausados — Sem conexão”.
+
+After mobile data was restored, the upload resumed automatically and completed without manual retry. The completion screenshot shows a 5G indicator. Recovery time was not measured.
+
+The tester confirmed that exactly one copy existed in the desktop Drive folder. The downloaded video matched the original size in bytes and duration and played correctly at the beginning, middle, and end.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+10,"Complete an upload after switching from Wi-Fi to mobile data","Network Interruption and Recovery",3,"Nicholas Passos",2822000,Passed,"2026-10-20 20:31:00","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC10\_R01\_video.mp4 while mobile data is disabled.
+3. While the upload is still active, enable mobile data and then disable Wi-Fi. Record the switch in the screen recording.
+4. Confirm mobile internet access and return to Google Drive. Observe and record the upload status and any message displayed.
+5. If the upload does not continue automatically, use an available retry or upload action without creating another active upload. Record whether recovery was automatic or manual.
+6. Keep Wi-Fi disabled until the upload finishes. Record the final status and approximate recovery time.
+7. Refresh QA-Connectivity-Lab in the desktop browser.
+8. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+9. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The upload starts over Wi-Fi and is visibly in progress.
+3. Wi-Fi is disconnected before upload completion, and mobile data becomes the available internet connection.
+4. The app remains usable and indicates an active, pending, unsuccessful, or completed state consistent with the operation.
+5. The upload can continue or be restarted over mobile data without requiring Wi-Fi.
+6. The upload completes with no pending upload or error indicator.
+7. Exactly one file named TC10\_R01\_video.mp4 is listed.
+8. File size and duration match the original. The checked sections play without visible or audible corruption.
+9. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ","The initial attempt did not validate the intended network switch because the upload completed after Wi-Fi was restored.
+
+During the valid attempt, TC10\_R01\_attempt2\_video.mp4 started uploading over Wi-Fi. The tester switched to mobile data while upload progress was visible and kept Wi-Fi disabled until completion. Wi-Fi-only transfers were disabled.
+
+The upload continued automatically over mobile data without manual retry. Slow progress was observed, but transfer time was not measured.
+
+The desktop folder shows two files named TC10\_R01\_attempt2\_video.mp4. The tester confirmed two manually initiated uploads, so the two copies are not being attributed to automatic duplication by the app.
+
+The tester confirmed that the downloaded file from the valid attempt matched the original size in bytes and duration and played correctly at the beginning, middle, and end.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+11,"Complete an upload after switching from mobile data to Wi-Fi","Network Interruption and Recovery",3,"Nicholas Passos",1562000,Passed,"2026-10-20 20:58:34","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC11\_R01\_video.mp4 while Wi-Fi is disabled.
+3. While the upload is still active, enable Wi-Fi and connect to the known network. Once connected, disable mobile data. Record the switch in the screen recording.
+4. Confirm Wi-Fi internet access and return to Google Drive. Observe and record the upload status and any message displayed.
+5. If the upload does not continue automatically, use an available retry or upload action without creating another active upload. Record whether recovery was automatic or manual.
+6. Keep mobile data disabled until the upload finishes. Record the final status and approximate recovery time.
+7. Refresh QA-Connectivity-Lab in the desktop browser.
+8. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+9. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The upload starts over mobile data and is visibly in progress.
+3. The network switch occurs before upload completion. Wi-Fi becomes the only available internet connection.
+4. The app remains usable and indicates an active, pending, unsuccessful, or completed state consistent with the operation.
+5. The upload can continue or be restarted over Wi-Fi.
+6. The upload completes with no pending upload or error indicator.
+7. Exactly one file named TC11\_R01\_video.mp4 is listed.
+8. File size and duration match the original. The checked sections play without visible or audible corruption.
+9. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ","TC11\_R01\_video.mp4 started uploading over mobile data with Wi-Fi disabled and Wi-Fi-only transfers disabled.
+
+While upload progress was visible, the tester connected to Wi-Fi and disabled mobile data. The upload continued automatically with no perceptible pause and completed over Wi-Fi. No manual retry or additional upload was required.
+
+Exactly one copy was visible in the desktop Drive folder. The tester confirmed that the downloaded video matched the original size in bytes and duration and played correctly at the beginning, middle, and end.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+12,"Maintain a consistent upload state after backgrounding and resuming the app","App Lifecycle and Retry",4,"Nicholas Passos",2222000,Passed,"2026-10-20 21:36:41","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC12\_R01\_video.mp4 over Wi-Fi.
+3. While the upload is active, use the Home button or gesture to leave Google Drive. Do not remove it from recent apps or lock the screen.
+4. Remain on the home screen for 30 seconds, keeping the screen on and Wi-Fi connected.
+5. Return to Google Drive through recent apps. Record the displayed upload state and any message.
+6. If the upload is incomplete, observe whether it continues. If necessary, use an available retry action without creating another active upload. Record any manual intervention.
+7. After the app indicates completion, refresh QA-Connectivity-Lab in the desktop browser.
+8. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+9. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The app shows that the upload is in progress.
+3. The home screen is displayed and Google Drive is in the background.
+4. The background interval is completed without an intentional connectivity change.
+5. The app opens without crashing and shows an identifiable upload state, such as in progress, pending, unsuccessful, or completed.
+6. The upload continues or can be recovered through a clear user action.
+7. Exactly one file named TC12\_R01\_video.mp4 is listed, consistent with the completed status in the app.
+8. File size and duration match the original. The checked sections play without visible or audible corruption.
+9. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ","TC12\_R01\_video.mp4 started uploading over Wi-Fi with mobile data disabled.
+
+While the upload was in progress, the tester pressed Home and kept Google Drive in the background for at least 30 seconds with the screen on. Upon returning, the upload had already completed without a manual retry.
+
+Exactly one copy was visible in the desktop Drive folder. The tester confirmed that the downloaded video matched the original size in bytes, duration, and playback.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,Medium,Normal,Manual,Functional,,false,
+13,"Maintain a consistent upload state after locking and unlocking the screen","App Lifecycle and Retry",4,"Nicholas Passos",14728000,Passed,"2026-10-21 01:43:06","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC13\_R01\_video.mp4 over Wi-Fi.
+3. While the upload is active and Google Drive is in the foreground, lock the screen using the device's side button. Record the time.
+4. Leave the device locked for 30 seconds without intentionally changing connectivity.
+5. Unlock the device and return to Google Drive if necessary. Record the upload state, any message, and whether Wi-Fi is still connected.
+6. If the upload is incomplete, observe whether it continues. If necessary, use an available retry action without creating another active upload. Record any manual intervention.
+7. After the app indicates completion, refresh QA-Connectivity-Lab in the desktop browser.
+8. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+9. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The app shows that the upload is in progress.
+3. The screen turns off and the device is locked.
+4. The planned locked-screen interval is completed.
+5. The app is usable and shows an identifiable upload state, such as in progress, pending, unsuccessful, or completed.
+6. The upload continues or can be recovered through a clear user action.
+7. Exactly one file named TC13\_R01\_video.mp4 is listed, consistent with the completed status in the app.
+8. File size and duration match the original. The checked sections play without visible or audible corruption.
+9. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ","TC13\_R01\_video.mp4 started uploading over Wi-Fi with mobile data disabled.
+
+The tester locked the screen while the upload was in progress. Upon unlocking, the upload had already completed without a manual retry. Power saving was disabled, and the device was running on battery without a charger.
+
+Exactly one copy was visible in the desktop Drive folder. The tester confirmed that the downloaded video matched the original file size and duration and played correctly at the beginning, middle, and end.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,Medium,Normal,Manual,Functional,,false,
+14,"Recover upload state after dismissing Google Drive from recent apps","App Lifecycle and Retry",4,"Nicholas Passos",20000,Passed,"2026-10-21 01:43:28","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC14\_R01\_video.mp4 over Wi-Fi.
+3. While the upload is active, open recent apps and swipe away only the Google Drive card. Do not use Force stop or Clear all.
+4. Wait 30 seconds, keeping the screen on and Wi-Fi connected.
+5. Reopen Google Drive using its app icon and navigate to QA-Connectivity-Lab. Record any upload status or message.
+6. Refresh the destination folder in the desktop browser and compare it with the Android app.
+7. If the upload is incomplete, allow any active transfer to continue. If no transfer is active, use an available retry or upload action. Record the action taken and avoid starting a duplicate active upload.
+8. After completion, refresh the destination folder on the desktop again.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The app shows that the upload is in progress.
+3. The Google Drive card is removed from recent apps.
+4. The observation interval is completed without an intentional connectivity change.
+5. The app opens successfully and the destination folder is accessible.
+6. The observations allow identification of whether the upload completed, remains incomplete, or needs a new attempt. The app does not falsely report completion.
+7. The upload continues or can be completed through a clear user action.
+8. Exactly one file named TC14\_R01\_video.mp4 is listed, with no pending upload or error indicator in the Android app.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ","TC14\_R01\_video.mp4 was uploading over Wi-Fi with mobile data disabled.
+
+The tester dismissed only Google Drive from recent apps while the upload was in progress, waited, and reopened the app. The upload had already completed without a manual retry.
+
+Exactly one copy was visible in the desktop Drive folder. The tester confirmed that the downloaded video matched the original size and duration and played correctly at the beginning, middle, and end.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,Medium,Normal,Manual,Functional,,false,
+15,"Retry an interrupted upload without creating duplicate files","App Lifecycle and Retry",4,"Nicholas Passos",18000,Blocked,"2026-10-21 01:55:45","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC15\_R01\_video.mp4 over Wi-Fi.
+3. Disable Wi-Fi before the upload finishes. Keep mobile data disabled.
+4. Observe for 30 seconds. Record the upload state, message, and whether an explicit retry action is available.
+5. Restore Wi-Fi and confirm internet access. Check whether the interrupted upload still offers a retry action.
+6. Capture evidence of the retry action, then select it once. Do not start a separate upload through the New or Upload menu.
+7. Wait for completion and record the final status.
+8. Refresh QA-Connectivity-Lab in the desktop browser. Inspect the folder for the original filename and any automatically renamed copies of the same video.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The upload is visibly in progress.
+3. Connectivity is interrupted during the upload.
+4. The upload is not falsely reported as completed. The availability or absence of a retry action is documented.
+5. The retry action is available for the incomplete upload. If the app automatically recovers and no retry action is available, stop this case and record that the required condition was not reached.
+6. The retry request is accepted and the interrupted upload restarts or resumes.
+7. The upload completes with no pending upload or error indicator.
+8. Exactly one resulting video file is present, named TC15\_R01\_video.mp4, with no unexpected duplicate copies.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ","TC15\_R01\_video.mp4 was interrupted during an active Wi-Fi upload. The device remained without any network connection for 30 seconds, and Google Drive displayed ""Waiting for network.""
+
+After Wi-Fi was restored, the upload resumed automatically and completed. No manual retry was performed.
+
+Exactly one copy was visible in the desktop Drive folder. The tester confirmed that the downloaded video matched the original.
+
+Status: Blocked. The manual retry step could not be exercised because the upload recovered automatically. Automatic recovery completed without an observed duplicate file.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,

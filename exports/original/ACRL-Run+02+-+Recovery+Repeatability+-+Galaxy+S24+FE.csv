@@ -1,0 +1,365 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,steps_comments,comment,stacktrace,priority,severity,automation,type,tags,is_muted,case_parameter
+5,"Recover a PDF upload after restoring Wi-Fi","Offline and Network Settings",2,"Nicholas Passos",468000,Passed,"2026-10-21 17:01:12","1. Open the local PDF and note its page count and content. While connected, open QA-Connectivity-Lab in Google Drive.
+2. Disable Wi-Fi and mobile data on the phone. Ensure no alternative internet connection is active.
+3. Attempt to upload TC05\_R01\_document.pdf. Observe for 30 seconds and record the status.
+4. Enable Wi-Fi, confirm internet access, and keep mobile data disabled. Return to Google Drive.
+5. Observe whether the upload resumes automatically. If it does not, use an available retry or upload action. Record the action taken and avoid starting another upload while one is active.
+6. Wait for the upload to finish and record the final status and approximate recovery time.
+7. Refresh QA-Connectivity-Lab in the desktop browser.
+8. Open the uploaded PDF on the desktop and compare it with the local original.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. The PDF is readable and the destination folder opens successfully.
+2. The phone has no active internet connection.
+3. The upload is not reported as completed. The app indicates an offline, pending, waiting, or unsuccessful state.
+4. Wi-Fi connectivity is restored and the app remains usable.
+5. The upload resumes automatically or can be restarted through a clear user action.
+6. The file appears with no pending upload or error indicator.
+7. Exactly one file named TC05\_R01\_document.pdf is listed.
+8. The PDF opens, and its page count, text and visible content match the original.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ","TC05\_R02\_document.pdf was queued while the device was offline. Google Drive displayed ""Uploads paused. No connection.""
+
+After Wi-Fi was restored, the upload resumed automatically and completed without a manual retry.
+
+Exactly one copy was visible in the desktop Drive folder. The tester confirmed that the downloaded PDF matched the original document without content changes.
+
+The automatic recovery behavior observed in Run 01 was reproduced in Run 02.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+8,"Recover an in-progress upload after Wi-Fi interruption","Network Interruption and Recovery",3,"Nicholas Passos",19000,Passed,"2026-10-21 17:31:13","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC08\_R01\_video.mp4 over Wi-Fi.
+3. While the upload is visibly in progress, disable Wi-Fi. Keep mobile data disabled.
+4. Observe for 30 seconds. Record the upload status and any message displayed.
+5. Keeping the phone offline, refresh the destination folder in the desktop browser.
+6. Enable Wi-Fi, confirm internet access, and return to Google Drive. Keep mobile data disabled.
+7. Observe whether the upload resumes automatically. If necessary, use an available retry or upload action without creating another active upload. Record the recovery action and approximate time.
+8. Wait for completion, then refresh the destination folder on the desktop.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The app shows that the upload is in progress.
+3. Connectivity is interrupted before upload completion.
+4. The app does not falsely report successful completion. The incomplete operation remains identifiable, and the app does not crash.
+5. No complete, downloadable copy of the video is available. If one is available, investigate whether the upload finished before the interruption took effect.
+6. Wi-Fi connectivity is restored and the app remains usable.
+7. The upload resumes or can be restarted through a clear user action.
+8. Exactly one file named TC08\_R01\_video.mp4 is listed, with no pending upload or error indicator in the Android app.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ","TC08\_R02\_video.mp4 was uploaded over Wi-Fi. Wi-Fi was disabled during the upload, and Google Drive displayed ""Uploads paused. No connection.""
+
+After Wi-Fi was restored, the upload resumed automatically and completed without a manual retry.
+
+Exactly one copy of TC08\_R02\_video.mp4 was visible in the desktop Drive folder. The tester confirmed that the resulting video matched the original.
+
+An earlier attempt used TC08\_R02\_document.pdf instead of the planned video. That attempt was excluded from this result, and the scenario was repeated using the correct MP4 file.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+9,"Recover an in-progress upload after mobile data interruption","Network Interruption and Recovery",3,"Nicholas Passos",1000,Passed,"2026-10-21 17:42:53","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC09\_R01\_video.mp4 over mobile data.
+3. While the upload is visibly in progress, disable mobile data. Keep Wi-Fi disabled.
+4. Observe for 30 seconds. Record the upload status and any message displayed.
+5. Keeping the phone offline, refresh the destination folder in the desktop browser.
+6. Enable mobile data, confirm internet access, and return to Google Drive. Keep Wi-Fi disabled.
+7. Observe whether the upload resumes automatically. If necessary, use an available retry or upload action without creating another active upload. Record the recovery action and approximate time.
+8. Wait for completion, then refresh the destination folder on the desktop.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The app shows that the upload is in progress without requiring Wi-Fi.
+3. Connectivity is interrupted before upload completion.
+4. The app does not falsely report successful completion. The incomplete operation remains identifiable, and the app does not crash.
+5. No complete, downloadable copy of the video is available. If one is available, investigate whether the upload finished before the interruption took effect.
+6. Mobile connectivity is restored and the app remains usable.
+7. The upload resumes or can be restarted through a clear user action.
+8. Exactly one file named TC09\_R01\_video.mp4 is listed, with no pending upload or error indicator in the Android app.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ","TC09\_R02\_video.mp4 was uploaded over mobile data. Mobile data was disabled during the upload, and Google Drive displayed ""Uploads paused. No connection.""
+
+After mobile data was restored, the upload resumed automatically and completed without a manual retry.
+
+Exactly one copy of TC09\_R02\_video.mp4 was visible in the desktop Drive folder. The tester confirmed that the resulting video matched the original.
+
+The automatic recovery behavior observed in Run 01 was reproduced in Run 02.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+10,"Complete an upload after switching from Wi-Fi to mobile data","Network Interruption and Recovery",3,"Nicholas Passos",543000,Passed,"2026-10-21 17:40:59","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC10\_R01\_video.mp4 while mobile data is disabled.
+3. While the upload is still active, enable mobile data and then disable Wi-Fi. Record the switch in the screen recording.
+4. Confirm mobile internet access and return to Google Drive. Observe and record the upload status and any message displayed.
+5. If the upload does not continue automatically, use an available retry or upload action without creating another active upload. Record whether recovery was automatic or manual.
+6. Keep Wi-Fi disabled until the upload finishes. Record the final status and approximate recovery time.
+7. Refresh QA-Connectivity-Lab in the desktop browser.
+8. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+9. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The upload starts over Wi-Fi and is visibly in progress.
+3. Wi-Fi is disconnected before upload completion, and mobile data becomes the available internet connection.
+4. The app remains usable and indicates an active, pending, unsuccessful, or completed state consistent with the operation.
+5. The upload can continue or be restarted over mobile data without requiring Wi-Fi.
+6. The upload completes with no pending upload or error indicator.
+7. Exactly one file named TC10\_R01\_video.mp4 is listed.
+8. File size and duration match the original. The checked sections play without visible or audible corruption.
+9. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ","TC10\_R02\_video.mp4 started uploading over Wi-Fi. Wi-Fi was disabled before mobile data was enabled, creating an offline interval. Google Drive displayed ""Uploads paused. No connection.""
+
+After mobile data was enabled, the upload resumed automatically and completed over 5G without a manual retry.
+
+Exactly one copy of TC10\_R02\_video.mp4 was visible in the desktop Drive folder. The tester confirmed that the resulting video matched the original.
+
+Execution deviation: mobile data was enabled after Wi-Fi was disabled. This execution validates recovery across a Wi-Fi-to-mobile-data transition with an offline interval, rather than an uninterrupted handover.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+15,"Retry an interrupted upload without creating duplicate files","App Lifecycle and Retry",4,"Nicholas Passos",918000,Passed,"2026-10-21 18:23:47","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC15\_R01\_video.mp4 over Wi-Fi.
+3. Disable Wi-Fi before the upload finishes. Keep mobile data disabled.
+4. Observe for 30 seconds. Record the upload state, message, and whether an explicit retry action is available.
+5. Restore Wi-Fi and confirm internet access. Check whether the interrupted upload still offers a retry action.
+6. Capture evidence of the retry action, then select it once. Do not start a separate upload through the New or Upload menu.
+7. Wait for completion and record the final status.
+8. Refresh QA-Connectivity-Lab in the desktop browser. Inspect the folder for the original filename and any automatically renamed copies of the same video.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The upload is visibly in progress.
+3. Connectivity is interrupted during the upload.
+4. The upload is not falsely reported as completed. The availability or absence of a retry action is documented.
+5. The retry action is available for the incomplete upload. If the app automatically recovers and no retry action is available, stop this case and record that the required condition was not reached.
+6. The retry request is accepted and the interrupted upload restarts or resumes.
+7. The upload completes with no pending upload or error indicator.
+8. Exactly one resulting video file is present, named TC15\_R01\_video.mp4, with no unexpected duplicate copies.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ","TC15\_R02\_video.mp4 was interrupted during an active Wi-Fi upload. The device remained without network connectivity for 30 seconds, with mobile data disabled. Google Drive displayed ""Uploads paused. No connection.""
+
+After Wi-Fi was restored, the upload resumed automatically and completed. No manual retry was performed.
+
+Exactly one copy of TC15\_R02\_video.mp4 was visible in the desktop Drive folder. The tester confirmed that the resulting video matched the original.
+
+Status: Blocked. The manual retry step could not be exercised because recovery was automatic, reproducing the limitation observed in Run 01. Automatic recovery completed without an observed duplicate file.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,
+15,"Retry an interrupted upload without creating duplicate files","App Lifecycle and Retry",4,"Nicholas Passos",0,Retest,"2026-10-21 18:24:57","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC15\_R01\_video.mp4 over Wi-Fi.
+3. Disable Wi-Fi before the upload finishes. Keep mobile data disabled.
+4. Observe for 30 seconds. Record the upload state, message, and whether an explicit retry action is available.
+5. Restore Wi-Fi and confirm internet access. Check whether the interrupted upload still offers a retry action.
+6. Capture evidence of the retry action, then select it once. Do not start a separate upload through the New or Upload menu.
+7. Wait for completion and record the final status.
+8. Refresh QA-Connectivity-Lab in the desktop browser. Inspect the folder for the original filename and any automatically renamed copies of the same video.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The upload is visibly in progress.
+3. Connectivity is interrupted during the upload.
+4. The upload is not falsely reported as completed. The availability or absence of a retry action is documented.
+5. The retry action is available for the incomplete upload. If the app automatically recovers and no retry action is available, stop this case and record that the required condition was not reached.
+6. The retry request is accepted and the interrupted upload restarts or resumes.
+7. The upload completes with no pending upload or error indicator.
+8. Exactly one resulting video file is present, named TC15\_R01\_video.mp4, with no unexpected duplicate copies.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+",,,,,High,Normal,Manual,Functional,,false,
+15,"Retry an interrupted upload without creating duplicate files","App Lifecycle and Retry",4,"Nicholas Passos",1000,Blocked,"2026-10-21 18:25:24","1. Open the local video. Record its file size and duration, and check playback at the beginning, middle, and end.
+2. Open QA-Connectivity-Lab and start uploading TC15\_R01\_video.mp4 over Wi-Fi.
+3. Disable Wi-Fi before the upload finishes. Keep mobile data disabled.
+4. Observe for 30 seconds. Record the upload state, message, and whether an explicit retry action is available.
+5. Restore Wi-Fi and confirm internet access. Check whether the interrupted upload still offers a retry action.
+6. Capture evidence of the retry action, then select it once. Do not start a separate upload through the New or Upload menu.
+7. Wait for completion and record the final status.
+8. Refresh QA-Connectivity-Lab in the desktop browser. Inspect the folder for the original filename and any automatically renamed copies of the same video.
+9. Download the uploaded video on the desktop. Compare its size and duration with the original, and check playback at the beginning, middle, and end.
+10. Open the original video on the phone again.
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. The video plays correctly. Reference details are recorded for comparison.
+2. The upload is visibly in progress.
+3. Connectivity is interrupted during the upload.
+4. The upload is not falsely reported as completed. The availability or absence of a retry action is documented.
+5. The retry action is available for the incomplete upload. If the app automatically recovers and no retry action is available, stop this case and record that the required condition was not reached.
+6. The retry request is accepted and the interrupted upload restarts or resumes.
+7. The upload completes with no pending upload or error indicator.
+8. Exactly one resulting video file is present, named TC15\_R01\_video.mp4, with no unexpected duplicate copies.
+9. File size and duration match the original. The checked sections play without visible or audible corruption.
+10. The local original remains available and playable.
+","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested
+9. Untested
+10. Untested
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ","TC15\_R02\_video.mp4 was interrupted during an active Wi-Fi upload. The device remained without network connectivity for 30 seconds, with mobile data disabled. Google Drive displayed ""Uploads paused. No connection.""
+
+After Wi-Fi was restored, the upload resumed automatically and completed. No manual retry was performed.
+
+Exactly one copy of TC15\_R02\_video.mp4 was visible in the desktop Drive folder. The tester confirmed that the resulting video matched the original.
+
+Status: Blocked. The manual retry step could not be exercised because recovery was automatic, reproducing the limitation observed in Run 01. Automatic recovery completed without an observed duplicate file.
+
+Environment: Samsung Galaxy S24 FE, Android 16, One UI 8.5, Google Drive 2.26.387.",,High,Normal,Manual,Functional,,false,

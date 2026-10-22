@@ -1,0 +1,142 @@
+[
+  {
+    "run": "R01",
+    "case_id": 1,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-19 22:41:51",
+    "title": "Upload a PDF file over Wi-Fi"
+  },
+  {
+    "run": "R01",
+    "case_id": 2,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-19 23:06:14",
+    "title": "Upload an image file over Wi-Fi"
+  },
+  {
+    "run": "R01",
+    "case_id": 3,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-19 23:14:08",
+    "title": "Upload a PDF file over mobile data"
+  },
+  {
+    "run": "R01",
+    "case_id": 4,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 00:28:20",
+    "title": "Attempt to upload a PDF while offline"
+  },
+  {
+    "run": "R01",
+    "case_id": 5,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 01:10:48",
+    "title": "Recover a PDF upload after restoring Wi-Fi"
+  },
+  {
+    "run": "R01",
+    "case_id": 6,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 01:42:00",
+    "title": "Respect Wi-Fi-only uploads when using mobile data"
+  },
+  {
+    "run": "R01",
+    "case_id": 7,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 02:15:03",
+    "title": "Complete a Wi-Fi-only upload after connecting to Wi-Fi"
+  },
+  {
+    "run": "R01",
+    "case_id": 8,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 19:21:49",
+    "title": "Recover an in-progress upload after Wi-Fi interruption"
+  },
+  {
+    "run": "R01",
+    "case_id": 9,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 19:42:42",
+    "title": "Recover an in-progress upload after mobile data interruption"
+  },
+  {
+    "run": "R01",
+    "case_id": 10,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 20:31:00",
+    "title": "Complete an upload after switching from Wi-Fi to mobile data"
+  },
+  {
+    "run": "R01",
+    "case_id": 11,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 20:58:34",
+    "title": "Complete an upload after switching from mobile data to Wi-Fi"
+  },
+  {
+    "run": "R01",
+    "case_id": 12,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-20 21:36:41",
+    "title": "Maintain a consistent upload state after backgrounding and resuming the app"
+  },
+  {
+    "run": "R01",
+    "case_id": 13,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-21 01:43:06",
+    "title": "Maintain a consistent upload state after locking and unlocking the screen"
+  },
+  {
+    "run": "R01",
+    "case_id": 14,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-21 01:43:28",
+    "title": "Recover upload state after dismissing Google Drive from recent apps"
+  },
+  {
+    "run": "R01",
+    "case_id": 15,
+    "status": "Blocked",
+    "finish_time_as_exported": "2026-10-21 01:55:45",
+    "title": "Retry an interrupted upload without creating duplicate files"
+  },
+  {
+    "run": "R02",
+    "case_id": 5,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-21 17:01:12",
+    "title": "Recover a PDF upload after restoring Wi-Fi"
+  },
+  {
+    "run": "R02",
+    "case_id": 8,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-21 17:31:13",
+    "title": "Recover an in-progress upload after Wi-Fi interruption"
+  },
+  {
+    "run": "R02",
+    "case_id": 9,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-21 17:42:53",
+    "title": "Recover an in-progress upload after mobile data interruption"
+  },
+  {
+    "run": "R02",
+    "case_id": 10,
+    "status": "Passed",
+    "finish_time_as_exported": "2026-10-21 17:40:59",
+    "title": "Complete an upload after switching from Wi-Fi to mobile data"
+  },
+  {
+    "run": "R02",
+    "case_id": 15,
+    "status": "Blocked",
+    "finish_time_as_exported": "2026-10-21 18:25:24",
+    "title": "Retry an interrupted upload without creating duplicate files"
+  }
+]

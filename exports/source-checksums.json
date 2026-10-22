@@ -1,0 +1,27 @@
+[
+  {
+    "file": "exports/original/ACRL-Run+01+-+Initial+Connectivity+and+Recovery+-+Galaxy+S24+FE.csv",
+    "sha256": "392a8f7e7877e9a4c9fecfd66a00b45d4f7c01354b5cf678c3d9f76f374db236",
+    "bytes": 38380
+  },
+  {
+    "file": "exports/original/ACRL-Run+02+-+Recovery+Repeatability+-+Galaxy+S24+FE.csv",
+    "sha256": "373a3c5f52ec7962849aa02f9c567fea06f78b7324c1cc2432f3522169658d6b",
+    "bytes": 19668
+  },
+  {
+    "file": "exports/original/ACRL-2026-10-21.json",
+    "sha256": "a1ee18cd779bc810ad8e80c3b61f9723f82a2f2c14417e5cccbf8821752d6ed3",
+    "bytes": 54682
+  },
+  {
+    "file": "exports/original/R01.zip",
+    "sha256": "c4dbf380faf11f669235e81f11c28f5d7348e44560b56db4174d0ecc5edf84ce",
+    "bytes": 10111071
+  },
+  {
+    "file": "exports/original/R02.zip",
+    "sha256": "3d7d0a2221c8d001d5521bc97cfecffc2b5a97485a0eddc11706430f7d9c3e53",
+    "bytes": 2854242
+  }
+]

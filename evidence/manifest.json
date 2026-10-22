@@ -1,0 +1,1500 @@
+[
+  {
+    "evidence_id": "R01-001",
+    "run": "R01",
+    "case": "TC01",
+    "file": "evidence/R01/TC01/R01-001.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_02.jpg",
+    "sha256": "35a2670aafd64bd1dabeb4afcb38b23cda108d50881a61affeef46e428f058a1",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017698.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-002",
+    "run": "R01",
+    "case": "TC01",
+    "file": "evidence/R01/TC01/R01-002.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_07.jpg",
+    "sha256": "9065b0fbc0a57ed7deea232222ade4a5f73ff567f8ef5b3fdb99f8023145dd76",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017696.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-003",
+    "run": "R01",
+    "case": "TC01",
+    "file": "evidence/R01/TC01/R01-003.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_12.jpg",
+    "sha256": "918b6e4c5c7286677f93dfbcdea17739c856a27a49bb9544b58dae6d5df680ef",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017694.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-004",
+    "run": "R01",
+    "case": "TC01",
+    "file": "evidence/R01/TC01/R01-004.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_16.jpg",
+    "sha256": "f0ddf67719af5cfafb00ba4ce84b89d55a68fb36f95e446abe85cd76fcd1aaa7",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017692.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-005",
+    "run": "R01",
+    "case": "TC01",
+    "file": "evidence/R01/TC01/R01-005.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_22.png",
+    "sha256": "beb1eb007b0d1bf6cea5b0e3a4dc0d186c036ca1e1b9ee0168e4ef65b0af869a",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261019-223806).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-006",
+    "run": "R01",
+    "case": "TC02",
+    "file": "evidence/R01/TC02/R01-006.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_30.jpg",
+    "sha256": "9793bd040b53d3618f530853207e0436dab92fa1bd6197d102fb9eb6926513cf",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017706.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-007",
+    "run": "R01",
+    "case": "TC02",
+    "file": "evidence/R01/TC02/R01-007.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_35.jpg",
+    "sha256": "3400277b1ac554e7091fbea44daf0f428bdb624df312490ba22f7ba343096871",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017700.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-008",
+    "run": "R01",
+    "case": "TC02",
+    "file": "evidence/R01/TC02/R01-008.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_40.png",
+    "sha256": "87cb50e39816339812308a74af856157ac51a3a3841441fa68aa3d16b14e4827",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261019-230529).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-009",
+    "run": "R01",
+    "case": "TC03",
+    "file": "evidence/R01/TC03/R01-009.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_47.jpg",
+    "sha256": "506beabb929dff28984e65f5fecb6eeeeb21df2781303b3ab4ca947a05de55a5",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017722.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-010",
+    "run": "R01",
+    "case": "TC03",
+    "file": "evidence/R01/TC03/R01-010.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_51.jpg",
+    "sha256": "40bdcb07a5bb0f05f79dc473ce91565d5c6674458f281e77efe8b3e2cc69cb3e",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017720.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-011",
+    "run": "R01",
+    "case": "TC03",
+    "file": "evidence/R01/TC03/R01-011.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_35_55.jpg",
+    "sha256": "b726dd5f71c1acc01916e2b157ccb0a1afaea51d2c5120375a1c28419d9c47a8",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017718.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-012",
+    "run": "R01",
+    "case": "TC03",
+    "file": "evidence/R01/TC03/R01-012.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_00.png",
+    "sha256": "8f7afc8c2b7fcea19228d70314225b09df8d92f280ec826e3984b5b7644e98ea",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261019-231159).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-013",
+    "run": "R01",
+    "case": "TC03",
+    "file": "evidence/R01/TC03/R01-013.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_05.png",
+    "sha256": "eaa3e3db846f3f4d9696cbc739d33b100df1acf37e7c3cd44326754b07dad375",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261019-231249).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-014",
+    "run": "R01",
+    "case": "TC04",
+    "file": "evidence/R01/TC04/R01-014.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_11.jpg",
+    "sha256": "90c67c7c666b86dff6c3f7c76157d05cc5d464805ec40f71d284f5b233a3735f",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017730.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-015",
+    "run": "R01",
+    "case": "TC04",
+    "file": "evidence/R01/TC04/R01-015.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_15.jpg",
+    "sha256": "f415a74fda10e81f71e718ba48a5f2110e4242134a7a68b2dadd15c116805a04",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017728.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-016",
+    "run": "R01",
+    "case": "TC04",
+    "file": "evidence/R01/TC04/R01-016.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_19.jpg",
+    "sha256": "f0edc7eb8470e03bb8366effbe91da5bb5a2fd4dfc086a9ea54bd5fe8b1b8630",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017724.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-017",
+    "run": "R01",
+    "case": "TC04",
+    "file": "evidence/R01/TC04/R01-017.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_23.jpg",
+    "sha256": "a4df02ea0e64ce19ca21c7120de22c28e36be1c02f72f306c431df208b80edb6",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017732.jpg"
+    ],
+    "note": "TC04 follow-up context; the local file name is TC04_R01_document.pdf. Do not use this as direct evidence of a TC05 offline queue."
+  },
+  {
+    "evidence_id": "R01-018",
+    "run": "R01",
+    "case": "TC04",
+    "file": "evidence/R01/TC04/R01-018.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_27.jpg",
+    "sha256": "b9be903104a049f27949fd50de2579b27489483da9bc9660bb09e96f876af9cf",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017734.jpg"
+    ],
+    "note": "TC04 follow-up context; the local file name is TC04_R01_document.pdf. Do not use this as direct evidence of a TC05 offline queue."
+  },
+  {
+    "evidence_id": "R01-019",
+    "run": "R01",
+    "case": "TC05",
+    "file": "evidence/R01/TC05/R01-019.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_35.png",
+    "sha256": "d225b308e569bfc5bda21632bfa424b993f24323a47ce42f17af30c2b14f6482",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261020-010515).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-020",
+    "run": "R01",
+    "case": "TC05",
+    "file": "evidence/R01/TC05/R01-020.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_36_44.png",
+    "sha256": "c088ad49e462a22695a3d9cafec68b4e804cb4fc2a312b929d0d4aff4e43999d",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261020-010532).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-021",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-021.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_11.jpg",
+    "sha256": "ba7f522a3992f284cb320be0b597e911f2113dce94bf0629049772b97bc83fbd",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017758.jpg",
+      "04-1000017758.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-022",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-022.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_16.jpg",
+    "sha256": "02a50f9bf1f4352761c0b2723e6b94c82798ea3b509e9e4532e02974c1971c96",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017756.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-023",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-023.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_20.jpg",
+    "sha256": "82590dbaa68eba7f8ea7c2f55b3bd8de8782793ac7260d5647b1ef14d2360b06",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017754.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-024",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-024.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_24.jpg",
+    "sha256": "ff394bad11e1f2a4af9a172cc5f2b50c2b0a123199c58ee09cea55448f9a5419",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017752.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-025",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-025.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_27.jpg",
+    "sha256": "fbbff1606ce40645bb40fdcabc73313ddb43421371fd202e9a20c635d90656df",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017750.jpg",
+      "05-1000017750.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-026",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-026.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_33.png",
+    "sha256": "f31a126a9633b8634b4df7c88b310eb432ea56ccbac343f17828aceee70fae84",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261020-014033).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-027",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-026.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_39.png",
+    "sha256": "f31a126a9633b8634b4df7c88b310eb432ea56ccbac343f17828aceee70fae84",
+    "duplicate_of": "R01-026",
+    "matching_prior_upload_names": [
+      "image(20261020-014033).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-028",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-025.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_43.jpg",
+    "sha256": "fbbff1606ce40645bb40fdcabc73313ddb43421371fd202e9a20c635d90656df",
+    "duplicate_of": "R01-025",
+    "matching_prior_upload_names": [
+      "02-1000017750.jpg",
+      "05-1000017750.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-029",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-023.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_47.jpg",
+    "sha256": "82590dbaa68eba7f8ea7c2f55b3bd8de8782793ac7260d5647b1ef14d2360b06",
+    "duplicate_of": "R01-023",
+    "matching_prior_upload_names": [
+      "03-1000017754.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-030",
+    "run": "R01",
+    "case": "TC06",
+    "file": "evidence/R01/TC06/R01-021.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_51.jpg",
+    "sha256": "ba7f522a3992f284cb320be0b597e911f2113dce94bf0629049772b97bc83fbd",
+    "duplicate_of": "R01-021",
+    "matching_prior_upload_names": [
+      "01-1000017758.jpg",
+      "04-1000017758.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-031",
+    "run": "R01",
+    "case": "TC07",
+    "file": "evidence/R01/TC07/R01-031.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_37_57.jpg",
+    "sha256": "db133d2b3bacd1d20c93e479cff407af9f963e464216d54bfcc84f3c39fd11bb",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017768.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-032",
+    "run": "R01",
+    "case": "TC07",
+    "file": "evidence/R01/TC07/R01-032.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_01.jpg",
+    "sha256": "918bec8802ea9681d6487454bcbda68f1f347f471b881322ce1c9c0b4fb311df",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017766.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-033",
+    "run": "R01",
+    "case": "TC07",
+    "file": "evidence/R01/TC07/R01-033.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_05.jpg",
+    "sha256": "e86636670c5de92d42d1a2791994ec814c6843f88629c88ee3781e2c579be46d",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017764.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-034",
+    "run": "R01",
+    "case": "TC07",
+    "file": "evidence/R01/TC07/R01-034.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_08.jpg",
+    "sha256": "4c6fddabebead7a204b786537df00773b0c243cda5fb892b57c036692af1614a",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017760.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-035",
+    "run": "R01",
+    "case": "TC08",
+    "file": "evidence/R01/TC08/R01-035.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_14.jpg",
+    "sha256": "f0c64acf663623aad25f4e0ba12100e6afbecf2bcb41c4c4a3160e46e25d98ba",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-036",
+    "run": "R01",
+    "case": "TC08",
+    "file": "evidence/R01/TC08/R01-036.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_18.jpg",
+    "sha256": "f14bf59ec67590c61ea783a98bb95638af4b39c5dddd7fd65de3308eecbbad85",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-037",
+    "run": "R01",
+    "case": "TC08",
+    "file": "evidence/R01/TC08/R01-037.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_22.jpg",
+    "sha256": "979c49ea03a80dc71b8d8be7402568ae2fb86c09269477fd2ba46dee48ed63c8",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-038",
+    "run": "R01",
+    "case": "TC08",
+    "file": "evidence/R01/TC08/R01-038.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_26.jpg",
+    "sha256": "b7bde561d573b2ca1bf4203626ec720cdd07f23efd8ed003aa915e95205c17cf",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-039",
+    "run": "R01",
+    "case": "TC08",
+    "file": "evidence/R01/TC08/R01-039.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_32.png",
+    "sha256": "08d22087736536d9320a78cbbed684fbe2bcf604d5e1e1d02c9e2d0812fad364",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-040",
+    "run": "R01",
+    "case": "TC08",
+    "file": "evidence/R01/TC08/R01-039.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_36.png",
+    "sha256": "08d22087736536d9320a78cbbed684fbe2bcf604d5e1e1d02c9e2d0812fad364",
+    "duplicate_of": "R01-039",
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-041",
+    "run": "R01",
+    "case": "TC09",
+    "file": "evidence/R01/TC09/R01-041.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_43.jpg",
+    "sha256": "8a97fff0c6ffd881a14e31114a92922f035d134cc3fd7cc2f9e0623195828c51",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017837.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-042",
+    "run": "R01",
+    "case": "TC09",
+    "file": "evidence/R01/TC09/R01-042.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_50.jpg",
+    "sha256": "16cc1863047f6bb4f46f5916f0beca68608823cafa101e277f97716a18607e55",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-043",
+    "run": "R01",
+    "case": "TC09",
+    "file": "evidence/R01/TC09/R01-043.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_54.jpg",
+    "sha256": "1b296ed41078e23c8308c5512c9e2e87e6c3668103e6aa6dc1a077041095902b",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-044",
+    "run": "R01",
+    "case": "TC09",
+    "file": "evidence/R01/TC09/R01-044.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_38_59.jpg",
+    "sha256": "8c02ee3ea349e8bb3b8113ef11782976e5b43be1eb71bb7164fa089f07d24ba5",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-045",
+    "run": "R01",
+    "case": "TC09",
+    "file": "evidence/R01/TC09/R01-045.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_06.png",
+    "sha256": "7e18ac99c695f128fc1b42075375ef11fd08de66795cc5a8594d20ff11bc52d5",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Desktop baseline captured with the TC09 group: TC08 is visible, TC09 is absent."
+  },
+  {
+    "evidence_id": "R01-046",
+    "run": "R01",
+    "case": "TC09",
+    "file": "evidence/R01/TC09/R01-046.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_11.png",
+    "sha256": "c298c6bb1a131261d592e2eeccdae66d1979bfcb60ac28cb6450f03e71b3fac6",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-047",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/initial-attempt/R01-047.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_19.jpg",
+    "sha256": "470becbc6ee1414e5ce6ec2877255a9205ead93bc38e28c290a717552dd30e87",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017845.jpg",
+      "05-1000017845.jpg"
+    ],
+    "note": "Initial TC10 attempt/context. The tester reported completion after Wi-Fi restoration, so this did not validate the intended switch."
+  },
+  {
+    "evidence_id": "R01-048",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/initial-attempt/R01-048.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_23.jpg",
+    "sha256": "0f17906d474b8c4c6e07c1478d8142b4f1cd5a4d65f910fbb39d7db69041eacb",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017843.jpg"
+    ],
+    "note": "Initial TC10 attempt/context. The tester reported completion after Wi-Fi restoration, so this did not validate the intended switch."
+  },
+  {
+    "evidence_id": "R01-049",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/initial-attempt/R01-049.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_26.jpg",
+    "sha256": "3219812337050db1b2f638f32c30dc7ca1bbaa3c3144d490e3f2b89df2cac7ee",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017841.jpg"
+    ],
+    "note": "Initial TC10 attempt/context. The tester reported completion after Wi-Fi restoration, so this did not validate the intended switch."
+  },
+  {
+    "evidence_id": "R01-050",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC09/R01-041.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_31.jpg",
+    "sha256": "8a97fff0c6ffd881a14e31114a92922f035d134cc3fd7cc2f9e0623195828c51",
+    "duplicate_of": "R01-041",
+    "matching_prior_upload_names": [
+      "04-1000017837.jpg"
+    ],
+    "note": "Initial TC10 attempt/context. The tester reported completion after Wi-Fi restoration, so this did not validate the intended switch."
+  },
+  {
+    "evidence_id": "R01-051",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/initial-attempt/R01-051.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_34.png",
+    "sha256": "75a6ac7e35d706b825f50dcf3356597d9fb3aa60c67d773d4ee1552f87a47fd7",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261020-201138).png",
+      "image(20261020-202742).png"
+    ],
+    "note": "Initial TC10 attempt/context. The tester reported completion after Wi-Fi restoration, so this did not validate the intended switch."
+  },
+  {
+    "evidence_id": "R01-052",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/repeat-attempt/R01-052.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_41.jpg",
+    "sha256": "a746acdb9fc21c2b8ed88d32078dc567c8fc98a4d0b0b230d86784dec67fc0db",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017855.jpg"
+    ],
+    "note": "TC10 repeat/context. Two manually initiated uploads account for the two same-named attempt2 files; repeated screenshots are separately identified."
+  },
+  {
+    "evidence_id": "R01-053",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/repeat-attempt/R01-053.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_45.jpg",
+    "sha256": "a89a1d42262eaf2384a54140342fdc7c97654ed6cfc16abee7ff56092a8dc120",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017853.jpg"
+    ],
+    "note": "TC10 repeat/context. Two manually initiated uploads account for the two same-named attempt2 files; repeated screenshots are separately identified."
+  },
+  {
+    "evidence_id": "R01-054",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/repeat-attempt/R01-054.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_49.jpg",
+    "sha256": "972aaa87e098abe5c69224469d4561b17b63ca549a283d38bcad707f3eb4661b",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017851.jpg"
+    ],
+    "note": "TC10 repeat/context. Two manually initiated uploads account for the two same-named attempt2 files; repeated screenshots are separately identified."
+  },
+  {
+    "evidence_id": "R01-055",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/repeat-attempt/R01-055.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_39_53.jpg",
+    "sha256": "0d3ddb63f5c1781793613034d15a26d813a8da6a8709d20d16a8cfbd6a8fb048",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017849.jpg"
+    ],
+    "note": "TC10 repeat/context. Two manually initiated uploads account for the two same-named attempt2 files; repeated screenshots are separately identified."
+  },
+  {
+    "evidence_id": "R01-056",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/initial-attempt/R01-047.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_40_01.jpg",
+    "sha256": "470becbc6ee1414e5ce6ec2877255a9205ead93bc38e28c290a717552dd30e87",
+    "duplicate_of": "R01-047",
+    "matching_prior_upload_names": [
+      "01-1000017845.jpg",
+      "05-1000017845.jpg"
+    ],
+    "note": "TC10 repeat/context. Two manually initiated uploads account for the two same-named attempt2 files; repeated screenshots are separately identified."
+  },
+  {
+    "evidence_id": "R01-057",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/initial-attempt/R01-051.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_40_06.png",
+    "sha256": "75a6ac7e35d706b825f50dcf3356597d9fb3aa60c67d773d4ee1552f87a47fd7",
+    "duplicate_of": "R01-051",
+    "matching_prior_upload_names": [
+      "image(20261020-201138).png",
+      "image(20261020-202742).png"
+    ],
+    "note": "TC10 repeat/context. Two manually initiated uploads account for the two same-named attempt2 files; repeated screenshots are separately identified."
+  },
+  {
+    "evidence_id": "R01-058",
+    "run": "R01",
+    "case": "TC10",
+    "file": "evidence/R01/TC10/repeat-attempt/R01-058.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_40_12.png",
+    "sha256": "8604bce89c1b1ba992519f3691f9d3ae7c4f35534a886cfec9d3baac1b159a53",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261020-203022).png"
+    ],
+    "note": "TC10 repeat/context. Two manually initiated uploads account for the two same-named attempt2 files; repeated screenshots are separately identified."
+  },
+  {
+    "evidence_id": "R01-059",
+    "run": "R01",
+    "case": "TC11",
+    "file": "evidence/R01/TC11/R01-059.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_42_56.jpg",
+    "sha256": "bc3b87052f857db61ded92e4d0a00212b22b6856a07ab593412a1a76cc79f00a",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017868.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-060",
+    "run": "R01",
+    "case": "TC11",
+    "file": "evidence/R01/TC11/R01-060.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_00.jpg",
+    "sha256": "9da4902974a8b4f8441369158bb3b466fe5712f73f6418652592e2669c356cf4",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017866.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-061",
+    "run": "R01",
+    "case": "TC11",
+    "file": "evidence/R01/TC11/R01-061.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_04.jpg",
+    "sha256": "4b6168bf1782daffa359086893fedea819e64253e8a3b52d1663a45c96085232",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017864.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-062",
+    "run": "R01",
+    "case": "TC11",
+    "file": "evidence/R01/TC11/R01-062.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_07.jpg",
+    "sha256": "470b1795f3a22ce132e248757ede8da40e4036eff6e72dd8418d08c51b10162a",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017862.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-063",
+    "run": "R01",
+    "case": "TC11",
+    "file": "evidence/R01/TC11/R01-063.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_12.png",
+    "sha256": "75a4ed754202860ce96ddb976ea2f331014e250d56b8fa5c385b8f9b2e0077ef",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261020-205743).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-064",
+    "run": "R01",
+    "case": "TC12",
+    "file": "evidence/R01/TC12/R01-064.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_21.jpg",
+    "sha256": "1c3b78ba6d9458e73407053623bca6a275a187d6b0b1680bef7dab309abc605d",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017876.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-065",
+    "run": "R01",
+    "case": "TC12",
+    "file": "evidence/R01/TC12/R01-065.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_25.jpg",
+    "sha256": "ba379d5a1f0e9483cb3accba43b9fabb0349f29942afb55d38e3c67859faf8b1",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017874.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-066",
+    "run": "R01",
+    "case": "TC12",
+    "file": "evidence/R01/TC12/R01-066.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_29.jpg",
+    "sha256": "4d128f6010b5b389c15e978aceb776ceeaf104cead50a27d8ac67b2a81a34665",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017872.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-067",
+    "run": "R01",
+    "case": "TC12",
+    "file": "evidence/R01/TC12/R01-067.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_33.png",
+    "sha256": "5c61d76d07ae9636c675a5c366dddbfa3547a395e9306ebf6d7eacb39fc3a37e",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261020-213108).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-068",
+    "run": "R01",
+    "case": "TC13",
+    "file": "evidence/R01/TC13/R01-068.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_41.jpg",
+    "sha256": "728ffebf8f359b01a2b805b286e2a9aa1a7cc42da6d28642a0b1df8428a368a1",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017886.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-069",
+    "run": "R01",
+    "case": "TC13",
+    "file": "evidence/R01/TC13/R01-069.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_45.jpg",
+    "sha256": "9efcc4daf2c56b8bf7f71b774d5fbbcedd4135bb8c68729bf8689ef3d092a12d",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017884.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-070",
+    "run": "R01",
+    "case": "TC13",
+    "file": "evidence/R01/TC13/R01-070.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_50.jpg",
+    "sha256": "72d5c1fb1a04806c2470a7c17ec778d88abb4a67d9cde30e72a237c2f9973c6a",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017882.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-071",
+    "run": "R01",
+    "case": "TC13",
+    "file": "evidence/R01/TC13/R01-071.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_55.jpg",
+    "sha256": "1cad041a4d68aac6ba24dfa1aefa3a29bacafcc78aaf4c6c7a2e96f16a49851d",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017880.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-072",
+    "run": "R01",
+    "case": "TC13",
+    "file": "evidence/R01/TC13/R01-072.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_43_59.png",
+    "sha256": "b5d7634d812fa58a7e79f47d582801b7983213c895a7506d76f62c59b25f24bc",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261020-214126).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-073",
+    "run": "R01",
+    "case": "TC14",
+    "file": "evidence/R01/TC14/R01-073.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_09.jpg",
+    "sha256": "99e6c67fded6ceff32f3f7e203aff42012065f90b12eb66f8fe7f950a2ec5a6b",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017907.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-074",
+    "run": "R01",
+    "case": "TC14",
+    "file": "evidence/R01/TC14/R01-074.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_13.jpg",
+    "sha256": "ec9422dab5192cd070c3ee7968928bdcd608156f31664256f88993d6812bd232",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017905.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-075",
+    "run": "R01",
+    "case": "TC14",
+    "file": "evidence/R01/TC14/R01-075.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_17.jpg",
+    "sha256": "64d5e54eae196e7120e176c4d8f24d45772be73fcf3350b449a657ce0ed54eff",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017903.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-076",
+    "run": "R01",
+    "case": "TC14",
+    "file": "evidence/R01/TC14/R01-076.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_22.png",
+    "sha256": "5d0ed8f632dc74fa99a0dfc228cf8c1ee105891860b52cde743d4d46119b8dc1",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261021-014752).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-077",
+    "run": "R01",
+    "case": "TC15",
+    "file": "evidence/R01/TC15/R01-077.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_28.jpg",
+    "sha256": "6a9ea307b599ce12967f3dd6990cf4f7e39467c64773e1fc9b01a132674dbc51",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017919.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-078",
+    "run": "R01",
+    "case": "TC15",
+    "file": "evidence/R01/TC15/R01-078.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_33.jpg",
+    "sha256": "2115cd41a147629e207339d8e9eec27fddc8a611748f62a403f11427966bffd0",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017917.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-079",
+    "run": "R01",
+    "case": "TC15",
+    "file": "evidence/R01/TC15/R01-079.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_37.jpg",
+    "sha256": "a8966a80951057eb896836c308ce62fd78ab8848a3d970e017975fc741aef84d",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017915.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-080",
+    "run": "R01",
+    "case": "TC15",
+    "file": "evidence/R01/TC15/R01-080.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_40.jpg",
+    "sha256": "86f72c895318e1cfb5e786ba8a9f80c813716e35e084477cc295f5ba425cdac1",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017913.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-081",
+    "run": "R01",
+    "case": "TC15",
+    "file": "evidence/R01/TC15/R01-081.jpg",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_44.jpg",
+    "sha256": "44d5267fd21e444b9ae3c3595718be3282c27f36fcac19461bbb4ec2fa3fad32",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "05-1000017911.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R01-082",
+    "run": "R01",
+    "case": "TC15",
+    "file": "evidence/R01/TC15/R01-082.png",
+    "source_archive": "R01.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_44_47.png",
+    "sha256": "4a9be7bde2e1be88a9876a8d897bf5c497189cb5fe32aaba275be1e43ccb0379",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261021-015331).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-001",
+    "run": "R02",
+    "case": "TC05",
+    "file": "evidence/R02/TC05/R02-001.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_45_48.jpg",
+    "sha256": "6e4c5962abee4ff007308d2b732d27fc3e042ec63519fa317201401cc1246cea",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017933.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-002",
+    "run": "R02",
+    "case": "TC05",
+    "file": "evidence/R02/TC05/R02-002.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_02.jpg",
+    "sha256": "8188b449a69fc45cb68559ddf30d90d9d3dcc7f961dc8ee4cc91356db070e484",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017931.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-003",
+    "run": "R02",
+    "case": "TC05",
+    "file": "evidence/R02/TC05/R02-003.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_07.jpg",
+    "sha256": "65bac7aa73c9fbd233e06240f12af837e6f7ff62b0b896e07c79b00e4fd1a339",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017929.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-004",
+    "run": "R02",
+    "case": "TC05",
+    "file": "evidence/R02/TC05/R02-004.png",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_11.png",
+    "sha256": "09ad09ddd9a72166fdc5725a26294d0544ea148a07eee0ca78e6f1d8c90ebbb8",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261021-170008).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-005",
+    "run": "R02",
+    "case": "TC08",
+    "file": "evidence/R02/TC08/excluded-pdf-attempt/R02-005.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_17.jpg",
+    "sha256": "e857bfb54a0814cdf56af57f50cdc988a9f9b0b1d5dc802a8212a4d76093d016",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017943.jpg"
+    ],
+    "note": "Excluded attempt: PDF used instead of the planned MP4. Retained for traceability; not counted as a separate planned execution."
+  },
+  {
+    "evidence_id": "R02-006",
+    "run": "R02",
+    "case": "TC08",
+    "file": "evidence/R02/TC08/excluded-pdf-attempt/R02-006.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_22.jpg",
+    "sha256": "0e87fa2c7b26e74ff588c801bc6d59e8bfd363fbf4e9fe6d53b024a78fa2b45b",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017941.jpg"
+    ],
+    "note": "Excluded attempt: PDF used instead of the planned MP4. Retained for traceability; not counted as a separate planned execution."
+  },
+  {
+    "evidence_id": "R02-007",
+    "run": "R02",
+    "case": "TC08",
+    "file": "evidence/R02/TC08/excluded-pdf-attempt/R02-007.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_26.jpg",
+    "sha256": "c5ba38bd2097dbc06c53b0d0e59564b79620ca5fd487f3b6a348440aae925edc",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017939.jpg"
+    ],
+    "note": "Excluded attempt: PDF used instead of the planned MP4. Retained for traceability; not counted as a separate planned execution."
+  },
+  {
+    "evidence_id": "R02-008",
+    "run": "R02",
+    "case": "TC08",
+    "file": "evidence/R02/TC08/excluded-pdf-attempt/R02-008.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_31.jpg",
+    "sha256": "6d6ad253d322b4bada9e194a84afa673b11582e677153a265ebe2255e97422f7",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017937.jpg"
+    ],
+    "note": "Excluded attempt: PDF used instead of the planned MP4. Retained for traceability; not counted as a separate planned execution."
+  },
+  {
+    "evidence_id": "R02-009",
+    "run": "R02",
+    "case": "TC08",
+    "file": "evidence/R02/TC08/R02-009.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_37.jpg",
+    "sha256": "26d9736b33bb9b388039c14a49c9b7aae58046819e41b2c8ed48d312a5c4589f",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017951.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-010",
+    "run": "R02",
+    "case": "TC08",
+    "file": "evidence/R02/TC08/R02-010.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_41.jpg",
+    "sha256": "3fd639aa196f53e08f4e8d8589f3fe07501511dae7a00e0bda14096bc9724350",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017949.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-011",
+    "run": "R02",
+    "case": "TC08",
+    "file": "evidence/R02/TC08/R02-011.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_45.jpg",
+    "sha256": "e8ea34b215780f2416f70c9452d8e578192d9ce9d958a43d29a4ab6490c2876b",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017947.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-012",
+    "run": "R02",
+    "case": "TC08",
+    "file": "evidence/R02/TC08/R02-012.png",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_49.png",
+    "sha256": "10f51a6d3649b6e0d90f030fd0de5e3dd0c48a78f35ddc46da5e232e2c8354a0",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261021-173019).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-013",
+    "run": "R02",
+    "case": "TC09",
+    "file": "evidence/R02/TC09/R02-013.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_46_56.jpg",
+    "sha256": "584adc733500e93e6a47652df292f1796ef07710d43eebfdd9a013cdc9003a70",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017963.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-014",
+    "run": "R02",
+    "case": "TC09",
+    "file": "evidence/R02/TC09/R02-014.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_00.jpg",
+    "sha256": "8f807fed4c451d3d87f88feb52dbbb7e4b2bae11d6e30d12e49f6805e2392fe7",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017955.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-015",
+    "run": "R02",
+    "case": "TC09",
+    "file": "evidence/R02/TC09/R02-015.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_05.jpg",
+    "sha256": "16e1d7cc30330d73ab544da75a616f0d5c8878de28d1fcfc2ac5e815eb43d438",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017961.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-016",
+    "run": "R02",
+    "case": "TC09",
+    "file": "evidence/R02/TC09/R02-016.png",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_10.png",
+    "sha256": "fc8484108586da2fea6c68c2380a7bc1fc1f6dbd0df7d70c6db3d2770c87b5b0",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261021-174025).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-017",
+    "run": "R02",
+    "case": "TC10",
+    "file": "evidence/R02/TC10/R02-017.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_17.jpg",
+    "sha256": "ffb35f24b39f7f8601222787702eb2481d3140f3aaabbea67be504430bc7acbf",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017973.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-018",
+    "run": "R02",
+    "case": "TC10",
+    "file": "evidence/R02/TC10/R02-018.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_21.jpg",
+    "sha256": "dc38eca4d00f425c16e12087725ebcd722dcafe71456da038dae33398b28b218",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017971.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-019",
+    "run": "R02",
+    "case": "TC10",
+    "file": "evidence/R02/TC10/R02-019.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_26.jpg",
+    "sha256": "d24da473e8d8feb24bbf60121f4b6c9f29eb4578cdf15370df31e66c371783b3",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017969.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-020",
+    "run": "R02",
+    "case": "TC10",
+    "file": "evidence/R02/TC10/R02-020.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_29.jpg",
+    "sha256": "30739ae956f8bdd4279d9aa35d6d164d4bd8d21feff71f979d8e481a02887dec",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017967.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-021",
+    "run": "R02",
+    "case": "TC10",
+    "file": "evidence/R02/TC10/R02-021.png",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_35.png",
+    "sha256": "bdee7348de3c47868f268e6b0f4776a9274554e83f536224efcfea19671a9c47",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261021-180530).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-022",
+    "run": "R02",
+    "case": "TC15",
+    "file": "evidence/R02/TC15/R02-022.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_41.jpg",
+    "sha256": "1a33e7dc4b9090567c8206f340084163afa09a00f9b685924aab4fc83853cdbe",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "01-1000017983.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-023",
+    "run": "R02",
+    "case": "TC15",
+    "file": "evidence/R02/TC15/R02-023.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_46.jpg",
+    "sha256": "905266829d34569e013616c21158a54c44ddc9fc050f8d1168ef02c59a97290b",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "02-1000017981.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-024",
+    "run": "R02",
+    "case": "TC15",
+    "file": "evidence/R02/TC15/R02-024.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_49.jpg",
+    "sha256": "06434d4d9638b05925a0fe34ede66273e2346043829990aca0e4241dbc0dbfd6",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "03-1000017979.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-025",
+    "run": "R02",
+    "case": "TC15",
+    "file": "evidence/R02/TC15/R02-025.jpg",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_47_54.jpg",
+    "sha256": "bc23ba65d294de025096cc08c473c4b49e535c96aa484751bd516fc1bf101c56",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "04-1000017977.jpg"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  },
+  {
+    "evidence_id": "R02-026",
+    "run": "R02",
+    "case": "TC15",
+    "file": "evidence/R02/TC15/R02-026.png",
+    "source_archive": "R02.zip",
+    "original_member": "Imagem do ChatGPT 21 de out. de 2026, 15_48_00.png",
+    "sha256": "de38ea48e2bf23c82afd4e5bfc9b43e7b615c5821fea0b553b1aeaa01cab6c56",
+    "duplicate_of": null,
+    "matching_prior_upload_names": [
+      "image(20261021-182111).png"
+    ],
+    "note": "Associated using visible file names, app state, adjacent captures and the execution record; an individual image may show only context."
+  }
+]
